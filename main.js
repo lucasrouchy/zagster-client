@@ -1,4 +1,5 @@
 alert("Hey Guy")
+
 $(updateview)
 
 function updateview(){
