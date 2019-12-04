@@ -4,7 +4,7 @@ const BASE_URL = "https://zagster-service.herokuapp.com"
 const PI = 3.14159
 // jQuery Command. wait untill web page laods call function whose name is in parantheses
 //function call means run the code
-//$(greeter)
+$(greeter)
 // call function add  use it -make it run
 // add(2,3);
 // // greeter is the function identifier. name is the functions
@@ -15,21 +15,21 @@ const PI = 3.14159
 //  console.log ("the answer is: " + answer);
 //   return answer;
 // }
-// function greeter(name) {
-//   alert ("welcome to "+ name +  "data Visualization")
-// }
+function greeter(name) {
+  alert ("welcome to "+ name +  "data Visualization")
+}
 
-// greeter("Lucas Rouchy's")
+greeter("Lucas Rouchy's")
 
 
-// var person = {name: "Lucas", age: 300, car: {model: "Tesla", year: 2030}}
-// console.log ("my name is "+ person.name)
-// console.log ("my age is "+ person.age)
-// console.log ("my car model is "+ person.car.model)
+var person = {name: "Lucas", age: 300, car: {model: "Tesla", year: 2030}}
+console.log ("my name is "+ person.name)
+console.log ("my age is "+ person.age)
+console.log ("my car model is "+ person.car.model)
 
-// if(person.age > 50) {
-//   alert ("stop being old")
-// }
+if(person.age > 50) {
+  alert ("stop being old")
+}
 
 // var data = {"2016":[{"9":220},{"10":141}, {"11":89}, {"12":16}]}
 // var year_list= data[2016]
@@ -67,38 +67,29 @@ for (var index = 0, month=1; index <=1, month <=10; ++index, ++month) {
   months2018.push(data[2018][index][month])
 }
 console.log ( "2018 data by months is " + months2018)
-//  function updateView() {
-//    alert('OHMAN')
-//    $.getJSON(BASE_URL + "/rides/count" , updateRideCount)
-//  }
-
-//  function updateRideCount(data) {
-//    numberOfRides = data.count
-//    $("h2#rideCount").html(numberOfRides)
-//  }
 
 
  
  
- 
+
 //  function updateGraph() {
 //  var ctx = document.getElementById('myChart').getContext('2d');
 // var chart = new Chart(ctx, {
-//     // The type of chart we want to create
-//     type: 'line',
+// //     // The type of chart we want to create
+// //     type: 'line',
 
-//     // The data for our dataset
-//     data: {
-//         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-//         datasets: [{
-//             label: 'My First dataset',
-//             backgroundColor: 'rgb(255, 99, 132)',
+// //     // The data for our dataset
+//  data: {
+//   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+//   datasets: [{
+//   label: 'My First dataset',
+//    backgroundColor: 'rgb(255, 99, 132)',
 //             borderColor: 'rgb(255, 99, 132)',
 //             data: [0, 10, 5, 2, 20, 30, 45]
 //         }]
 //     },
 
-//     // Configuration options go here
-//     options: {}
-// });
-//  }
+// //     // Configuration options go here
+//    options: {}
+//   }
+
